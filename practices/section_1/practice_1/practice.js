@@ -7,8 +7,8 @@ function collect_same_elements(collection_a, collection_b) {
     temp2.push(collection_b[j]);
     for(var k=0;k<temp1.length;k++)
       for(var t=0;t<temp2.length;t++){
-          if(temp1[i]==temp2[j])
-              result.push(temp1[i]);
+          if(temp1[k]==temp2[t])
+              result.push(temp1[k]);
         
       }
   return result;
